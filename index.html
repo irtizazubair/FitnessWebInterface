@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Therapy</title>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body {
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                margin: 0px;
+                padding 0px;
+                background: url('img/b.jpg');
+                height: 33px
+            }
+
+            .left {
+                display: inline-block;
+                /* border: 2px solid red; */
+                position: absolute;
+                left: 3px;
+                top: 18px;
+                width: 15%;
+            }
+
+            .left img {
+                padding: 44px;
+                margin: -73px 7px;
+                width: 100px;
+                filter: invert(100%);
+            }
+
+            .left div {
+                text-align: center;
+                line-height: 21px;
+                font-size: 14px;
+            }
+
+            .mid {
+                display: block;
+                width: 57%;
+                padding: 3px 55px;
+                margin: 18px 278px;
+                /* border: 2px solid green; */
+            }
+
+            .right {
+                position: absolute;
+                right: 5px;
+                top: 34px;
+                display: inline-block;
+                /* border: 2px solid yellow; */
+            }
+
+            .navbar {
+                display: inline-block;
+            }
+
+            .navbar li {
+                display: inline-block;
+                font-size: 18px;
+            }
+
+            .navbar li a {
+                text-decoration: none;
+                color: white;
+                padding: 3px 23px;
+
+            }
+
+            .navbar li a:hover,
+            .navbar li a.active {
+                text-decoration: underline;
+                color: grey;
+                padding: 3px 23px;
+
+            }
+
+            .btn {
+                font-family: 'Poppins', sans-serif;
+                margin: 0px 13px;
+                padding: 3px 14px;
+                color: white;
+                background-color: black;
+                border: 2px solid grey;
+                border-radius: 7px;
+                font-size: 13px;
+                cursor: pointer;
+            }
+
+            .btn:hover {
+                background-color: rgb(36, 33, 33);
+            }
+
+            .container {
+                border: 2px solid black;
+                margin: 69px 15px;
+                padding: 43px 99px;
+                width: 535px;
+                border-radius: 25px;
+            }
+
+            .form-group input {
+                font-family: 'Poppins', sans-serif;
+                display: block;
+                text-align: center;
+                margin: 7px auto;
+                padding: 3px 3px;
+                width: 452px;
+                /* border: 2px solid black; */
+                font-size: 18px;
+                border-radius: 15px;
+            }
+
+            .container button {
+                display: block;
+                width: 170px;
+                margin: auto;
+            }
+        </style>
+
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="img/—Pngtree—physical fitness sport gym logo_5172932.png" alt="">
+                <div>Fitness Therapy</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Fitness Calculator</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call Us</button>
+                <button class="btn">Email Us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join the best gym of Karachi now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                    <input type="text" name="" placeholder="Enter your Age">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                    <div>
+                        <button class="btn">Submit</button>
+            </form>
+        </div>
+    </body>
+
+</html>
